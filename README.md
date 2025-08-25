@@ -22,12 +22,6 @@
 
 ## Local Development
 ```bash
-# Clone the repository
-git clone <your-repository-url>
-
-# Navigate into the project directory
-cd <your-project-directory>
-
 # Install dependencies
 npm install
 
