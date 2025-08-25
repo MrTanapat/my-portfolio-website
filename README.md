@@ -1,12 +1,29 @@
-# React + Vite
+# Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+พอร์ตโฟลิโอเว็บไซต์ส่วนตัวที่สร้างขึ้นเพื่อแสดงผลงาน ทักษะ และข้อมูลการติดต่อ ออกแบบโดยเน้นดีไซน์ที่สะอาดตา ทันสมัย และมีประสบการณ์การใช้งานที่ดี (UX) รองรับการแสดงผลทุกขนาดหน้าจอ
 
-Currently, two official plugins are available:
+## Technologies Used
+- React 18
+- Vite
+- CSS3 (Flexbox, Grid, CSS Variables, Animations)
+- Lucide React Icons
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- **Responsive Design:** รองรับการแสดงผลทั้งบนเดสก์ท็อปและมือถือ
+- **Dark/Light Theme:** สลับธีมมืด/สว่างได้ และจดจำการตั้งค่าของผู้ใช้ด้วย LocalStorage
+- **Project Filtering:** สามารถกรองโปรเจกต์ตามเทคโนโลยีที่ใช้ได้
+- **Interactive UI:** มี Hover effects ที่สวยงาม เช่น Glow effect, Image zoom และ Starry night effect
+- **Contact Form:** ฟอร์มสำหรับติดต่อพร้อมระบบตรวจสอบข้อมูล (Validation) และการแจ้งเตือนแบบ Toast
+- **Smooth Scrolling:** การเลื่อนหน้าจอที่นุ่มนวลเมื่อคลิกเมนู Navbar
 
-## Expanding the ESLint configuration
+## Live Demo
+[Live Demo](https://m-portfolio-website.netlify.app/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Local Development
+```bash
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
