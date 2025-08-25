@@ -1,24 +1,39 @@
 // src/data/projectsData.js
+import Weather from "../assets/images/projects/WeatherApp.png";
+import ToDoList from "../assets/images/projects/To-doList.png";
+import Mini from "../assets/images/projects/Mini-Ecommerce.png";
 
 const projects = [
   {
     id: 1,
-    title: "E-commerce Website",
-    description: "A full-featured online store built with React and Node.js",
-    image: "/images/ecommerce-project.jpg",
-    technologies: ["React", "Node.js", "MongoDB", "Express"],
-    demoUrl: "https://my-ecommerce-demo.netlify.app",
-    githubUrl: "https://github.com/username/ecommerce-project",
+    title: "Weather App",
+    description: "แสดงผลสภาพอากาศปัจจุบันและพยากรณ์อากาศล่วงหน้า 5 วัน",
+    image: Weather,
+    technologies: ["CSS", "JavaScript", "HTML", "OpenWeather API"],
+    demoUrl: "https://mrtanapat.github.io/weather-app/",
+    githubUrl: "https://github.com/MrTanapat/weather-app.git",
     featured: true,
   },
   {
     id: 2,
-    title: "Weather App",
-    description: "Real-time weather application with location-based forecasts",
-    image: "/images/weather-app.jpg",
-    technologies: ["React", "OpenWeather API", "CSS3"],
-    demoUrl: "https://my-weather-app.netlify.app",
-    githubUrl: "https://github.com/username/weather-app",
+    title: "My To-Do List",
+    description:
+      "โปรเจกต์นี้คือแอปพลิเคชัน To-Do List ที่พัฒนาด้วย React และ Vite โดยใช้ Container Pattern และ React Context API สำหรับการจัดการสถานะ (state)",
+    image: ToDoList,
+    technologies: ["HTML", "CSS", "React", "Vite"],
+    demoUrl: "https://mrtanapat.github.io/ToDoList-App-Experiment2/",
+    githubUrl: "https://github.com/MrTanapat/ToDoList-App-Experiment2",
+    featured: false,
+  },
+  {
+    id: 3,
+    title: "Mini-Ecommerce",
+    description:
+      "สำหรับนักศึกษา Software Engineer 2 คน เพื่อฝึกฝน GitHub Workflow และ Collaboration",
+    image: Mini,
+    technologies: ["HTML", "CSS", "JavaScript"],
+    demoUrl: "https://mrtanapat.github.io/Mini-Ecommerce/",
+    githubUrl: "https://github.com/MrTanapat/Mini-Ecommerce",
     featured: false,
   },
 ];
